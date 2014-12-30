@@ -1,0 +1,38 @@
+{
+  "name": "social-contributions-graph",
+  "version": "1.0.0",
+  "description": "social contributions graph",
+  "main": "./src/social_contributions_graph.js",
+  "dependencies": {
+    "moment": "^2.8.4",
+    "cssify": "^0.6.0",
+    "react": "^0.12.2",
+    "reactify": "^0.17.1"
+  },
+  "devDependencies": {
+    "moment": "^2.8.4",
+    "cssify": "^0.6.0",
+    "react": "^0.12.2",
+    "reactify": "^0.17.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillaume Morin",
+  "license": "ISC",
+  "_shasum": "a35af5553c6b24b586dfbc9190e55ae044dd33ca",
+  "_from": "../social_contributions_graph/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillaumemorin/social-contributions-graph.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumemorin/social-contributions-graph/issues"
+  },
+  "homepage": "https://github.com/guillaumemorin/social-contributions-graph"
+}
